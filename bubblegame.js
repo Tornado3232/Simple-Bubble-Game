@@ -30,9 +30,9 @@ canvas.addEventListener('mouseup', function(event){
 
 //Player
 const playerLeft = new Image();
-playerLeft.src = 'fish_left'; 
+playerLeft.src = 'player_left'; 
 const playerRight = new Image();
-playerRight.src = 'fish_right';
+playerRight.src = 'player_right';
 class Player {
     constructor(){
         this.x = canvas.width;
